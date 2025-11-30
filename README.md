@@ -162,3 +162,33 @@ CrediApoyo permite administrar desde un entorno centralizado todo el ciclo finan
 ✔ Control financiero real
 ✔ Historial detallado
 ✔ Alertas y reportes útiles
+
+
+MÓDULO DE CONFIGURACIONES con las siguientes opciones:
+•⁠  ⁠[ ] - Nombre del sitio y Logotipo
+•⁠  ⁠[ ] - Configurar el correo principal que envía los mensajes del sistema	
+•⁠  ⁠[ ] - Teléfonos de contacto y definición de horarios de atención 
+•⁠  ⁠[ ] - Cambiar estilos principales de color de todo el sistema.
+•⁠  ⁠[ ] - Configurar de la cuenta de paypal principal del sistema
+•⁠  ⁠[ ] - API para el crear QR’s masivos.
+•⁠  ⁠[ ] - Configuraciones globales recomendadas del sistema
+
+*Directrices de desarrollo con tecnologías open source:*
+Php puro sin framework
+MySQL 5.7
+Estilos minimalistas elegantes de Tailwind CSS
+Estructura MVC
+URL Base bien identificada para instalar en cualquier directorio de un servidor apache
+Credenciales de Acceso DB
+Sentencia SQL con datos de ejemplo del estado de Querétaro.
+Readme.md con instrucciones para iniciar el sistema en un servidor Apache
+URL amigables para todas las secciones del sistema
+URL base - se configure automáticamente
+Agrega un archivo de test de conexión y confirmación de la URL Base.
+
+*Tecnologías sugeridas*
+•	Autenticación con sesiones y password_hash()
+•	HTML5 + CSS3 + JavaScript
+•	Tailwind CSS (diseño responsivo)
+•	Chart.js o ApexCharts (gráficas elegantes)
+•	FullCalendar.js (para ver actividades en calendario)
